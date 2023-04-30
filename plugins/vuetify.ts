@@ -6,11 +6,7 @@ export default defineNuxtPlugin((app) => {
     defaults,
     // add theme
     theme: {
-      defaultTheme: LIGHT_THEME,
-      themes: {
-        light,
-        dark,
-      },
+      defaultTheme: "dark",
       // add color variations
       //   variations: {
       //     colors: ["primary", "secondary"],
